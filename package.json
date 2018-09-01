@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tathagat2006/MongoDB-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tathagat2006/MongoDB-basics/issues"
+  },
+  "homepage": "https://github.com/tathagat2006/MongoDB-basics#readme",
+  "dependencies": {
+    "mongodb": "^3.1.1"
+  }
+}
