@@ -12,7 +12,9 @@ async function readTask() {
 
     const todos = tododb.collection('todos')
 
-    const todoArr = await todos.find({}).toArray()
+    // const todoArr = await todos.find({}).toArray()
+    // const todoArr = await todos.find({priority: {$exists: true}}).sort({priority: 1}).toArray()
+    const todoArr = await todos.find({}).sort({priority: 1}).toArray()
     todoArr.forEach((todo) => {
         console.log(JSON.stringify(todo))
     })
